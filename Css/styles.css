@@ -7,7 +7,7 @@ table{
 }
 .form_register{
     height:400px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 }
 .conte{
     height:280px;
@@ -15,11 +15,9 @@ table{
 }
 #name1{
 	margin-top: 100px;
-	
 	font-size: large;
 	font-style: oblique;
 	font-weight: 700;
-	margin-bottom: -20px;
 }
 
 * {
@@ -42,6 +40,7 @@ body {
 	width: 90%;
 	max-width: 1000px;
 	/*margin:auto;*/
+	margin-top: 10px;
 }
 
 .widget {
