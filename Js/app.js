@@ -80,9 +80,12 @@ const mostrar_date=()=>{
 mostrar_date()
 
 /*sumatoria*/
-const sumar_date=()=>{
-     
+const sumar_ope=()=>{
 
+}
+
+/*
+const sumar_date=()=>{
     suma.innerHTML=''
    if (StoreGlobal===null) {
        console.log('nada que sumar')
@@ -101,7 +104,7 @@ const sumar_date=()=>{
    }
 }
 sumar_date() 
-
+*/
 
 
 
