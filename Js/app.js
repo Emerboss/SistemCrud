@@ -60,6 +60,7 @@ const mostrar_date=()=>{
    }else{
     for(let index of StoreGlobal)
     {
+        
         body.innerHTML+=`
         <tr onclick="CapturarDatos('${index.code}')">
         <td>${index.code}</td>
@@ -73,7 +74,8 @@ const mostrar_date=()=>{
         </tr>
         `
     }
-   }
+}
+   
 }
 mostrar_date()
 
@@ -81,20 +83,18 @@ mostrar_date()
 const sumar_date=()=>{
      
 
-       
     suma.innerHTML=''
    if (StoreGlobal===null) {
        console.log('nada que sumar')
    }else{
     for(let index of StoreGlobal)
     {
+        
         suma.innerHTML+=`
-        <tr onclick="CapturarDatos('${index.code}')">
-        <td>${index.s_total}</td>
-        <td>${index.s_elementos}</td>
-        <td>${index.s_dinero}</td>
-        
-        
+        <tr onclick="CapturarDatos('${index.price}''${index.stock}')">
+        <td></td>
+        <td>${index.stock}</td>
+        <td>${index.price}</td>
         </tr>
         `
     } 
