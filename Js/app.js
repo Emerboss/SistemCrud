@@ -22,6 +22,7 @@ form_register.addEventListener('submit',(e)=>{
         Editar()
     }
     mostrar_date()
+    sumar_date() 
 })
 
 cancel.addEventListener("click",()=>{
@@ -66,8 +67,6 @@ const mostrar_date=()=>{
         <td>${index.stock}</td>
         <td>${index.price}</td>
         <td>${index.date}</td>
-        
-        
         <td class="text-warning text-center"><i class="fas fa-edit"></i></td>
         <td class="text-danger text-center" onclick="delet('${index.code}')"><i class="fas fa-trash-alt"></i></td>
        
@@ -80,7 +79,9 @@ mostrar_date()
 
 /*sumatoria*/
 const sumar_date=()=>{
-    
+     
+
+       
     suma.innerHTML=''
    if (StoreGlobal===null) {
        console.log('nada que sumar')
@@ -96,7 +97,7 @@ const sumar_date=()=>{
         
         </tr>
         `
-    }
+    } 
    }
 }
 sumar_date() 
